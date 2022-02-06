@@ -183,7 +183,7 @@ class HomeScreen extends StatelessWidget {
                                       fontWeight: FontWeight.w500),
                                 ),
                                 Text(
-                                  "Tournaments Woniii",
+                                  "Tournaments Won",
                                   style: TextStyle(color: Colors.white, height: 1.3),
                                   textAlign: TextAlign.center,
                                 ),
