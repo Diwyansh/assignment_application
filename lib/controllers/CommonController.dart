@@ -92,7 +92,7 @@ class LoginFormController extends GetxController {
         message: "LoggedIn Successfully",
       ));
       box.write("isLoggedIn", "true");
-      Get.to(() => HomeScreen());
+      Get.off(() => HomeScreen());
     } else {
       Get.back();
       Get.showSnackbar(GetBar(
